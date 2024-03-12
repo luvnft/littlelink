@@ -93,7 +93,7 @@ body {
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
-  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+  font-family: "Open Sans", "Archivo Black", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
 }
 
@@ -223,6 +223,11 @@ hr {
   object-fit: cover;
   background-position: center;
   border-radius: 50%;
+}
+
+@font-face {
+  font-family: 'Archivo Black';
+  src: url('../fonts/ArchivoBlack-Regular.ttf') format('truetype');
 }
 
 /* open-sans-regular - vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic */
