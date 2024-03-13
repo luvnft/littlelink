@@ -231,6 +231,20 @@ hr {
   src: url('../fonts/ArchivoBlack-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-display: swap;
+  font-family: 'Archivo Black';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/archivo-black-v34-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/archivo-black-v34-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/archivo-black-v34-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/archivo-black-v34-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/archivo-black-v34-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/archivo-black-v34-latin-regular.svg#ArchivoBlack') format('svg'); /* Legacy iOS */
+}
+
+
 /* open-sans-regular - vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
