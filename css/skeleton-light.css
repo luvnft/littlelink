@@ -208,6 +208,11 @@ hr {
   font-family: "Archivo Black", "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Add Archivo Black as the first font-family */
 }
 
+@font-face {
+  font-family: 'Archivo Black';
+  src: url('../fonts/ArchivoBlack-Regular.ttf') format('truetype');
+}
+
 /* open-sans-regular - vietnamese_latin-ext_latin_hebrew_greek-ext_greek_cyrillic-ext_cyrillic */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
